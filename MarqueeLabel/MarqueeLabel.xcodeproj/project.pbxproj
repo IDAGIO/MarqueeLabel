@@ -6,47 +6,12 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		EA017CE81DBED75E00237CA9 /* SingleShotOffscreenLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA017CE71DBED75E00237CA9 /* SingleShotOffscreenLabel.swift */; };
-		EA017CEA1DBEDCD900237CA9 /* NoReturnAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA017CE91DBEDCD900237CA9 /* NoReturnAnimation.swift */; };
-		EAE4AC591CA8DAC0006C1ECC /* MLHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAE4AC581CA8DAC0006C1ECC /* MLHeader.xib */; };
-		EAE4AC5B1CA8DAC8006C1ECC /* MarqueeLabel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAE4AC5A1CA8DAC8006C1ECC /* MarqueeLabel.storyboard */; };
-		EAE4AC5F1CA8DAFB006C1ECC /* MarqueeLabelDemoPushController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE4AC5C1CA8DAFB006C1ECC /* MarqueeLabelDemoPushController.swift */; };
-		EAE4AC601CA8DAFB006C1ECC /* MarqueeLabelDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE4AC5D1CA8DAFB006C1ECC /* MarqueeLabelDemoViewController.swift */; };
-		EAE4AC611CA8DAFB006C1ECC /* MarqueeLabelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE4AC5E1CA8DAFB006C1ECC /* MarqueeLabelTableViewController.swift */; };
-		EAE4AC661CA8DBBA006C1ECC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE4AC651CA8DBBA006C1ECC /* AppDelegate.swift */; };
-		EAE4AC691CA8DBDC006C1ECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAE4AC671CA8DBDC006C1ECC /* LaunchScreen.storyboard */; };
-		EAE4AC6B1CA8DC10006C1ECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE4AC6A1CA8DC10006C1ECC /* Assets.xcassets */; };
-		EAE4ACCF1CAA2495006C1ECC /* MarqueeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE4ACCE1CAA2495006C1ECC /* MarqueeLabel.swift */; };
-		EAE4ACD01CAA2495006C1ECC /* MarqueeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE4ACCE1CAA2495006C1ECC /* MarqueeLabel.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		EA017CE71DBED75E00237CA9 /* SingleShotOffscreenLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SingleShotOffscreenLabel.swift; path = ../../Extras/SingleShotOffscreenLabel.swift; sourceTree = "<group>"; };
-		EA017CE91DBEDCD900237CA9 /* NoReturnAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoReturnAnimation.swift; path = ../../Extras/NoReturnAnimation.swift; sourceTree = "<group>"; };
-		EA167D021CA8B43700DBF930 /* MarqueeLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarqueeLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA167D111CA8B43700DBF930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EAE4AC581CA8DAC0006C1ECC /* MLHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MLHeader.xib; sourceTree = SOURCE_ROOT; };
-		EAE4AC5A1CA8DAC8006C1ECC /* MarqueeLabel.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MarqueeLabel.storyboard; sourceTree = SOURCE_ROOT; };
-		EAE4AC5C1CA8DAFB006C1ECC /* MarqueeLabelDemoPushController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarqueeLabelDemoPushController.swift; sourceTree = SOURCE_ROOT; };
-		EAE4AC5D1CA8DAFB006C1ECC /* MarqueeLabelDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarqueeLabelDemoViewController.swift; sourceTree = SOURCE_ROOT; };
-		EAE4AC5E1CA8DAFB006C1ECC /* MarqueeLabelTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarqueeLabelTableViewController.swift; sourceTree = SOURCE_ROOT; };
-		EAE4AC651CA8DBBA006C1ECC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = SOURCE_ROOT; };
-		EAE4AC681CA8DBDC006C1ECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
-		EAE4AC6A1CA8DC10006C1ECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		EAE4AC7F1CA8DE70006C1ECC /* MarqueeLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MarqueeLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE4AC831CA8DE70006C1ECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EAE4ACCE1CAA2495006C1ECC /* MarqueeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MarqueeLabel.swift; path = ../../Sources/MarqueeLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EA167CFF1CA8B43700DBF930 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EAE4AC7B1CA8DE70006C1ECC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -57,83 +22,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EA017CE61DBED65E00237CA9 /* Extras */ = {
-			isa = PBXGroup;
-			children = (
-				EA017CE91DBEDCD900237CA9 /* NoReturnAnimation.swift */,
-				EA017CE71DBED75E00237CA9 /* SingleShotOffscreenLabel.swift */,
-			);
-			name = Extras;
-			path = MarqueeLabelSwift;
-			sourceTree = "<group>";
-		};
 		EA167CF91CA8B43700DBF930 = {
 			isa = PBXGroup;
 			children = (
-				EA167D041CA8B43700DBF930 /* MarqueeLabel Demo */,
 				EAE4AC801CA8DE70006C1ECC /* MarqueeLabel Framework */,
 				EA167D031CA8B43700DBF930 /* Products */,
-				EA017CE61DBED65E00237CA9 /* Extras */,
 			);
 			sourceTree = "<group>";
 		};
 		EA167D031CA8B43700DBF930 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA167D021CA8B43700DBF930 /* MarqueeLabelDemo.app */,
 				EAE4AC7F1CA8DE70006C1ECC /* MarqueeLabel.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		EA167D041CA8B43700DBF930 /* MarqueeLabel Demo */ = {
-			isa = PBXGroup;
-			children = (
-				EAE4AC551CA8DAA1006C1ECC /* Classes */,
-				EAE4AC561CA8DAA4006C1ECC /* Support */,
-				EAE4AC571CA8DAAB006C1ECC /* Interface */,
-				EAE4AC641CA8DB84006C1ECC /* Supporting Files */,
-			);
-			name = "MarqueeLabel Demo";
-			path = MarqueeLabelSwift;
-			sourceTree = "<group>";
-		};
-		EAE4AC551CA8DAA1006C1ECC /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				EAE4ACCE1CAA2495006C1ECC /* MarqueeLabel.swift */,
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
-		EAE4AC561CA8DAA4006C1ECC /* Support */ = {
-			isa = PBXGroup;
-			children = (
-				EAE4AC5D1CA8DAFB006C1ECC /* MarqueeLabelDemoViewController.swift */,
-				EAE4AC5C1CA8DAFB006C1ECC /* MarqueeLabelDemoPushController.swift */,
-				EAE4AC5E1CA8DAFB006C1ECC /* MarqueeLabelTableViewController.swift */,
-			);
-			name = Support;
-			sourceTree = "<group>";
-		};
-		EAE4AC571CA8DAAB006C1ECC /* Interface */ = {
-			isa = PBXGroup;
-			children = (
-				EAE4AC671CA8DBDC006C1ECC /* LaunchScreen.storyboard */,
-				EAE4AC5A1CA8DAC8006C1ECC /* MarqueeLabel.storyboard */,
-				EAE4AC581CA8DAC0006C1ECC /* MLHeader.xib */,
-			);
-			name = Interface;
-			sourceTree = "<group>";
-		};
-		EAE4AC641CA8DB84006C1ECC /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				EAE4AC6A1CA8DC10006C1ECC /* Assets.xcassets */,
-				EA167D111CA8B43700DBF930 /* Info.plist */,
-				EAE4AC651CA8DBBA006C1ECC /* AppDelegate.swift */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		EAE4AC801CA8DE70006C1ECC /* MarqueeLabel Framework */ = {
@@ -158,23 +60,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		EA167D011CA8B43700DBF930 /* MarqueeLabelDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EA167D141CA8B43700DBF930 /* Build configuration list for PBXNativeTarget "MarqueeLabelDemo" */;
-			buildPhases = (
-				EA167CFE1CA8B43700DBF930 /* Sources */,
-				EA167CFF1CA8B43700DBF930 /* Frameworks */,
-				EA167D001CA8B43700DBF930 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MarqueeLabelDemo;
-			productName = MarqueeLabelSwift;
-			productReference = EA167D021CA8B43700DBF930 /* MarqueeLabelDemo.app */;
-			productType = "com.apple.product-type.application";
-		};
 		EAE4AC7E1CA8DE70006C1ECC /* MarqueeLabel */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EAE4AC841CA8DE70006C1ECC /* Build configuration list for PBXNativeTarget "MarqueeLabel" */;
@@ -203,11 +88,6 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Charles Powell";
 				TargetAttributes = {
-					EA167D011CA8B43700DBF930 = {
-						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = K573DL86KG;
-						LastSwiftMigration = 1020;
-					};
 					EAE4AC7E1CA8DE70006C1ECC = {
 						CreatedOnToolsVersion = 7.3;
 						LastSwiftMigration = 1020;
@@ -227,24 +107,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EA167D011CA8B43700DBF930 /* MarqueeLabelDemo */,
 				EAE4AC7E1CA8DE70006C1ECC /* MarqueeLabel */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EA167D001CA8B43700DBF930 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EAE4AC591CA8DAC0006C1ECC /* MLHeader.xib in Resources */,
-				EAE4AC691CA8DBDC006C1ECC /* LaunchScreen.storyboard in Resources */,
-				EAE4AC6B1CA8DC10006C1ECC /* Assets.xcassets in Resources */,
-				EAE4AC5B1CA8DAC8006C1ECC /* MarqueeLabel.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EAE4AC7D1CA8DE70006C1ECC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -255,40 +123,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EA167CFE1CA8B43700DBF930 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EAE4AC5F1CA8DAFB006C1ECC /* MarqueeLabelDemoPushController.swift in Sources */,
-				EAE4AC601CA8DAFB006C1ECC /* MarqueeLabelDemoViewController.swift in Sources */,
-				EAE4ACCF1CAA2495006C1ECC /* MarqueeLabel.swift in Sources */,
-				EAE4AC661CA8DBBA006C1ECC /* AppDelegate.swift in Sources */,
-				EAE4AC611CA8DAFB006C1ECC /* MarqueeLabelTableViewController.swift in Sources */,
-				EA017CE81DBED75E00237CA9 /* SingleShotOffscreenLabel.swift in Sources */,
-				EA017CEA1DBEDCD900237CA9 /* NoReturnAnimation.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EAE4AC7A1CA8DE70006C1ECC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAE4ACD01CAA2495006C1ECC /* MarqueeLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		EAE4AC671CA8DBDC006C1ECC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EAE4AC681CA8DBDC006C1ECC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EA167D121CA8B43700DBF930 /* Debug */ = {
@@ -398,33 +240,6 @@
 			};
 			name = Release;
 		};
-		EA167D151CA8B43700DBF930 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = K573DL86KG;
-				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.charlespowell.MarqueeLabelSwiftDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		EA167D161CA8B43700DBF930 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = K573DL86KG;
-				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.charlespowell.MarqueeLabelSwiftDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 		EAE4AC851CA8DE70006C1ECC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -484,15 +299,6 @@
 			buildConfigurations = (
 				EA167D121CA8B43700DBF930 /* Debug */,
 				EA167D131CA8B43700DBF930 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EA167D141CA8B43700DBF930 /* Build configuration list for PBXNativeTarget "MarqueeLabelDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EA167D151CA8B43700DBF930 /* Debug */,
-				EA167D161CA8B43700DBF930 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
